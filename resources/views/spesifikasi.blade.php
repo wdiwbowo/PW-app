@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT Perunggu | Tentang Kami</title>
+    <title>PT Perunggu | Produk</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -81,8 +81,7 @@
     <div class="hero">
         <div class="overlay"></div>
         <div class="hero-content">
-            <h1 class="display-4">Tentang Kami</h1>
-            <p class="lead">Membangun Masa Depan dengan Inovasi dan Keunggulan</p>
+            <h1 class="display-4">Spesifikasi Produk</h1>
         </div>
     </div>
     

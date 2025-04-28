@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT Perunggu | Tentang Kami</title>
+    <title>PT Perunggu | Produk</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /> 
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -73,6 +73,67 @@
         .vision-mission p, .vision-mission li {
             font-size: 14px;
         }
+        /* Contact Section
+.container-fluid.py-5.d-flex.justify-content-center {
+    background-color: #000957;
+    color: white;
+    min-height: 400px;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.row.justify-content-center.align-items-center.mt-5.py-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-5.mb-4 {
+    max-width: 500px;
+}
+
+.border-start.ps-3 {
+    border-left: 3px solid #fff;
+    padding-left: 20px;
+}
+
+.fs-5 {
+    font-size: 1.25rem;
+}
+
+.d-flex.align-items-center.gap-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.card.p-4.shadow-sm.border-0.rounded-3 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
     </style>
 </head>
 <body>
@@ -81,92 +142,11 @@
     <div class="hero">
         <div class="overlay"></div>
         <div class="hero-content">
-            <h1 class="display-4">Tentang Kami</h1>
-            <p class="lead">Membangun Masa Depan dengan Inovasi dan Keunggulan</p>
-        </div>
-    </div>
-    
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="section-title">Sejarah Perusahaan</h2>
-                <p>PT PERUNGGU didirikan pada tahun XXXX dengan visi untuk memberikan solusi inovatif dalam industri teknologi. Sejak awal berdiri, kami telah berkembang menjadi perusahaan terkemuka dengan berbagai pencapaian signifikan.</p>
-            </div>
-            <div class="col-md-12 vision-mission mt-4">
-                <h2 class="section-title">Visi & Misi</h2>
-                <h4>Visi</h4>
-                <p>Menjadi perusahaan teknologi terdepan yang memberikan solusi terbaik bagi pelanggan.</p>
-                <h4>Misi</h4>
-                <ul>
-                    <li>Mengembangkan produk inovatif berbasis teknologi.</li>
-                    <li>Memberikan pelayanan terbaik kepada pelanggan.</li>
-                    <li>Meningkatkan kesejahteraan karyawan dan masyarakat.</li>
-                </ul>
-            </div>
+            <h1 class="display-4">Overview Produk</h1>
         </div>
     </div>
 
-    <div class="container my-5">
-        <h2 class="section-title text-center">Tim Kami</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CEO">
-                    <h5 class="mt-3">John Doe</h5>
-                    <p class="position-title">CEO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CTO">
-                    <h5 class="mt-3">Jane Smith</h5>
-                    <p class="position-title">CTO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <div class="container-fluid py-5 d-flex justify-content-center" style="background-color: #000957; color: white; min-height: 400px;">
         <div class="container">
             <div class="row justify-content-center align-items-center mt-5 py-3">

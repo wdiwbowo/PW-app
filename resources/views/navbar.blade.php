@@ -94,8 +94,8 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="https://linktr.ee/og/image/perunggu_.jpg" alt="Logo">
-                <h1>PT PERUNGGU</h1>
+                <img src="images/perunggu.png" alt="Logo">
+                <h1>PT Perunggu</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -103,19 +103,33 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
     <li class="nav-item">
-        <a class="nav-link" href="/">BERANDA</a>
+        <a class="nav-link" href="/">Beranda</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="/aboutus">About Us</a>
+        <a class="nav-link" href="/aboutus">Tentang Kami</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="produkDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Produk
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="produkDropdown">
+            <li><a class="dropdown-item" href="/produk">Overview Produk</a></li>
+            <li><a class="dropdown-item" href="/spesifikasi">Spesifikasi Produk</a></li>
+            <li><a class="dropdown-item" href="/sertifikasi">Sertifikasi Produk</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="produkDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Galeri
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="produkDropdown">
+            <li><a class="dropdown-item" href="/image">Pabrik & Workshop</a></li>
+            <li><a class="dropdown-item" href="/pengiriman">Pengepakan & Pengiriman</a></li>
+            <li><a class="dropdown-item" href="/material">Material</a></li>
+        </ul>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">LAYANAN</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">PORTOFOLIO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">HUBUNGI KAMI</a>
+        <a class="nav-link" href="/kontak">Kontak</a>
     </li>
 </ul>
 
