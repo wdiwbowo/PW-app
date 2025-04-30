@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT Perunggu | Produk</title>
+    <title>PT Mulia Jaya | Produk</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -77,22 +77,23 @@
 </head>
 <body>
     @include('navbar')
-    
+
     <div class="hero">
         <div class="overlay"></div>
         <div class="hero-content">
             <h1 class="display-4">Spesifikasi Produk</h1>
         </div>
     </div>
-    
+
     <div class="container my-5">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="section-title">Sejarah Perusahaan</h2>
-                <p>PT PERUNGGU didirikan pada tahun XXXX dengan visi untuk memberikan solusi inovatif dalam industri teknologi. Sejak awal berdiri, kami telah berkembang menjadi perusahaan terkemuka dengan berbagai pencapaian signifikan.</p>
+                <h2 class="section-title">Material</h2>
+                <p>Kawat baja galvanis (Hot Dip Galvanized)</p>
+                 <p>Opsional: Kawat berlapis PVC untuk ketahanan korosi ekstra</p>
             </div>
             <div class="col-md-12 vision-mission mt-4">
-                <h2 class="section-title">Visi & Misi</h2>
+                <h2 class="section-title">Ukuran Produk</h2>
                 <h4>Visi</h4>
                 <p>Menjadi perusahaan teknologi terdepan yang memberikan solusi terbaik bagi pelanggan.</p>
                 <h4>Misi</h4>
@@ -104,68 +105,6 @@
             </div>
         </div>
     </div>
-
-    <div class="container my-5">
-        <h2 class="section-title text-center">Tim Kami</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CEO">
-                    <h5 class="mt-3">John Doe</h5>
-                    <p class="position-title">CEO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CTO">
-                    <h5 class="mt-3">Jane Smith</h5>
-                    <p class="position-title">CTO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="team-card">
-                    <img src="/images/unduhan__20_-removebg-preview.png" alt="CFO">
-                    <h5 class="mt-3">Michael Brown</h5>
-                    <p class="position-title">CFO</p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container-fluid py-5 d-flex justify-content-center" style="background-color: #000957; color: white; min-height: 400px;">
         <div class="container">
             <div class="row justify-content-center align-items-center mt-5 py-3">
@@ -174,21 +113,21 @@
                     <div class="border-start ps-3">
                         <p class="fs-5 mb-3 d-flex align-items-center gap-2">
                             <i class="fas fa-envelope text-white"></i>
-                            <strong>Email:</strong> 
+                            <strong>Email:</strong>
                             <a href="mailto:info@bronjong.com" class="text-white text-decoration-none">info@bronjong.com</a>
                         </p>
                         <p class="fs-5 mb-3 d-flex align-items-center gap-2">
                             <i class="fab fa-whatsapp text-white"></i>
-                            <strong>WhatsApp:</strong> 
-                            <a href="https://wa.me/6281234567890" class="text-white text-decoration-none">+62 812-3456-7890</a>
+                            <strong>WhatsApp:</strong>
+                            <a href="https://wa.me/6281280277160" class="text-white text-decoration-none">+62 812-8027-7160</a>
                         </p>
                         <p class="fs-5 d-flex align-items-center gap-2">
                             <i class="fas fa-map-marker-alt text-white"></i>
-                            <strong>Lokasi:</strong> Jakarta, Indonesia
+                            <strong>Lokasi:</strong> Bogor, Indonesia
                         </p>
                     </div>
                 </div>
-    
+
                 <!-- Map Section -->
                 <div class="col-md-6">
                     <div class="card p-4 shadow-sm border-0 rounded-3">
@@ -199,19 +138,19 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Leaflet Map Script -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        var map = L.map('map').setView([-6.200000, 106.816666], 13);
+        var map = L.map('map').setView([-6.642270922154071, 106.87148395724725], 13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
-        L.marker([-6.200000, 106.816666]).addTo(map)
-            .bindPopup("Lokasi Kantor Bronjong")
+        L.marker([-6.642270922154071, 106.87148395724725]).addTo(map)
+            .bindPopup("Pt Mulia Jaya")
             .openPopup();
     </script>
-    
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const observer = new IntersectionObserver(
@@ -225,12 +164,12 @@
                 },
                 { threshold: 0.2 }
             );
-    
+
             document.querySelectorAll(".fade-in-bottom").forEach(element => {
                 observer.observe(element);
             });
         });
     </script>
-    
+
 </body>
 </html>

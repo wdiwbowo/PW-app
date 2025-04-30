@@ -94,8 +94,8 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="images/perunggu.png" alt="Logo">
-                <h1>PT Perunggu</h1>
+                <img src="images/mm.jpg" alt="Logo">
+                <h1>PT Mulia Mandiri</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

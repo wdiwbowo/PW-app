@@ -46,7 +46,7 @@
             padding: 20px 0;
             text-align: center;
         }
-        
+
     </style>
 </head>
 <body>
@@ -153,7 +153,7 @@ observer.observe(element);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT Perunggu | Tentang Kami</title>
+    <title>PT Mulia Jaya | Tentang Kami</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -227,7 +227,7 @@ observer.observe(element);
 </head>
 <body>
     @include('navbar')
-    
+
     <div class="hero">
         <div class="overlay"></div>
         <div class="hero-content">
@@ -244,29 +244,35 @@ observer.observe(element);
                 <form action="/send-message" method="POST">
                     @csrf
                     <div class="mb-3">
-                        <label for="name" class="form-label">Nama Anda</label>
+                        <label for="name" class="form-label">Nama</label>
                         <input type="text" class="form-control" id="name" name="name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email Anda</label>
+                        <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" name="email" required>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label">Pesan Anda</label>
+                        <label for="email" class="form-label">Nomor Telepon</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Pesan</label>
                         <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Kirim Pesan</button>
                     <h2 class="text-center mb-5"></h2>
                 </form>
             </div>
-            
+
 
             <!-- Contact Information -->
-            <div class="col-md-6 contact-info">
-                <div class="info-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <img src="https://i0.wp.com/ciburial.desa.id/wp-content/uploads/2009/11/20170403-kontak-kami-ciburial-desa-id-gambar-utama-2.jpg?fit=970%2C300&ssl=1" alt="Logo">
-                </div>
+         <div class="col-md-6 contact-info">
+    <div class="info-item">
+        <img src="images/work.png" alt="Logo" style="width: 130%; height: auto; position: relative; top: -48px;">
+    </div>
+</div>
+
+
                 {{-- <div class="info-item">
                     <i class="fas fa-phone-alt"></i>
                     <p><strong>Telepon:</strong> +62 812-3456-7890</p>
@@ -288,44 +294,44 @@ observer.observe(element);
                     <div class="border-start ps-3">
                         <p class="fs-5 mb-3 d-flex align-items-center gap-2">
                             <i class="fas fa-envelope text-white"></i>
-                            <strong>Email:</strong> 
+                            <strong>Email:</strong>
                             <a href="mailto:info@bronjong.com" class="text-white text-decoration-none">info@bronjong.com</a>
                         </p>
                         <p class="fs-5 mb-3 d-flex align-items-center gap-2">
                             <i class="fab fa-whatsapp text-white"></i>
-                            <strong>WhatsApp:</strong> 
-                            <a href="https://wa.me/6281234567890" class="text-white text-decoration-none">+62 812-3456-7890</a>
-                        </p>
-                        <p class="fs-5 d-flex align-items-center gap-2">
-                            <i class="fas fa-map-marker-alt text-white"></i>
-                            <strong>Lokasi:</strong> Jakarta, Indonesia
-                        </p>
+                            <strong>WhatsApp:</strong>
+                            <a href="https://wa.me/6281280277160" class="text-white text-decoration-none">+62 812-8027-7160</a>
+                            </p>
+                            <p class="fs-5 d-flex align-items-center gap-2">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                                <strong>Lokasi:</strong> Bogor, Indonesia
+                            </p>
+                        </div>
                     </div>
-                </div>
-    
-                <!-- Map Section -->
-                <div class="col-md-6">
-                    <div class="card p-4 shadow-sm border-0 rounded-3">
-                        <h3 class="text-center mb-3">Lokasi Kami</h3>
-                        <div id="map" style="height: 300px; border-radius: 10px;"></div>
+
+                    <!-- Map Section -->
+                    <div class="col-md-6">
+                        <div class="card p-4 shadow-sm border-0 rounded-3">
+                            <h3 class="text-center mb-3">Lokasi Kami</h3>
+                            <div id="map" style="height: 300px; border-radius: 10px;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <!-- Leaflet Map Script -->
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
-        var map = L.map('map').setView([-6.200000, 106.816666], 13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-        L.marker([-6.200000, 106.816666]).addTo(map)
-            .bindPopup("Lokasi Kantor Bronjong")
-            .openPopup();
-    </script>
-    
+
+        <!-- Leaflet Map Script -->
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script>
+            var map = L.map('map').setView([-6.642270922154071, 106.87148395724725], 13);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+            L.marker([-6.642270922154071, 106.87148395724725]).addTo(map)
+                .bindPopup("Lokasi Pt Mulia Jaya")
+                .openPopup();
+        </script>
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const observer = new IntersectionObserver(
@@ -339,12 +345,12 @@ observer.observe(element);
                 },
                 { threshold: 0.2 }
             );
-    
+
             document.querySelectorAll(".fade-in-bottom").forEach(element => {
                 observer.observe(element);
             });
         });
     </script>
-    
+
 </body>
 </html>
