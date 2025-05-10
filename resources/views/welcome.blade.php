@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bronjong - Selamat Datang</title>
+    <title>Pt Mulia Jaya - Selamat Datang</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -86,7 +86,7 @@
             width: 100%;
             height: 400px;
             border-radius: 10px;
-            box-shadow: 0px 
+            box-shadow: 0px
             4px 10px rgba(0, 0, 0, 0.2);
         }
         .card-img-top {
@@ -154,16 +154,16 @@
 </head>
 <body>
     @include('navbar')
-    
+
 <!-- Hero Section -->
 <div class="hero fade-in-bottom">
     <div class="container">
         <div class="hero-content-wrapper">
             <div class="hero-content custom-bg-purple">
-                <h3>Durable & Sustainable Gabion</h3>
+                <h3>Selamat Datang di Bronjong Murah UD. Mulia Mandiri</h3>
             </div>
             <div class="hero-content custom-bg-white">
-                <h3><span style="color:#EB5B00;">For Every Applications</span></h3>
+                <h3><span style="color:#EB5B00;">Solusi Terbaik untuk Kebutuhan Bronjong Anda </span></h3>
             </div>
         </div>
     </div>
@@ -180,8 +180,8 @@
             </div>
             <div class="col-md-6 d-flex align-items-center">
                 <div>
-                    <h3 class="section-title mb-4">PT PERUNGGU</h3>
-                    <p class="fs-5">Berlokasi di kawasan industri di perbatasan Surabaya dan Gresik, PT PERUNGGU memiliki keunggulan strategis karena dekat dengan jalur tol, depo, dan pelabuhan.</p>
+                    <h3 class="section-title mb-4">PT Mulia Mandiri</h3>
+                    <p class="fs-5">adalah perusahaan yang bergerak di bidang penjualan bronjong dengan harga terjangkau dan kualitas terbaik di pasaran. Kami memiliki pengalaman bertahun-tahun dalam menyediakan solusi bronjong yang dapat memenuhi kebutuhan pelanggan dengan baik.</p>
                 </div>
             </div>
         </div>
@@ -193,7 +193,7 @@
 
 <!-- Features Section -->
 <div class="container py-5 text-center position-relative fade-in-bottom">
-    <h2 class="section-title text-center position-absolute w-100" style="top: 10px;">Keunggulan Bronjong</h2>
+    <h2 class="section-title text-center position-absolute w-100" style="top: 10px;">Keunggulan</h2>
     <div class="row justify-content-center mt-5">
         <div class="col-md-3 fade-in-bottom">
             <div class="feature-card">
@@ -279,17 +279,17 @@
                 <div class="border-start ps-3">
                     <p class="fs-5 mb-3 d-flex align-items-center gap-2">
                         <i class="fas fa-envelope text-white"></i>
-                        <strong>Email:</strong> 
+                        <strong>Email:</strong>
                         <a href="mailto:info@bronjong.com" class="text-white text-decoration-none">info@bronjong.com</a>
                     </p>
                     <p class="fs-5 mb-3 d-flex align-items-center gap-2">
                         <i class="fab fa-whatsapp text-white"></i>
-                        <strong>WhatsApp:</strong> 
-                        <a href="https://wa.me/6281234567890" class="text-white text-decoration-none">+62 812-3456-7890</a>
+                        <strong>WhatsApp:</strong>
+                        <a href="https://wa.me/6281280277160" class="text-white text-decoration-none">+62 812-8027-7160</a>
                     </p>
                     <p class="fs-5 d-flex align-items-center gap-2">
                         <i class="fas fa-map-marker-alt text-white"></i>
-                        <strong>Lokasi:</strong> Jakarta, Indonesia
+                        <strong>Lokasi:</strong> Bogor, Indonesia
                     </p>
                 </div>
             </div>
@@ -308,11 +308,11 @@
 <!-- Leaflet Map Script -->
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
-    var map = L.map('map').setView([-6.200000, 106.816666], 13);
+    var map = L.map('map').setView([-6.642270922154071, 106.87148395724725], 13);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
-    L.marker([-6.200000, 106.816666]).addTo(map)
+    L.marker([-6.642270922154071, 106.87148395724725]).addTo(map)
         .bindPopup("Lokasi Kantor Bronjong")
         .openPopup();
 </script>
